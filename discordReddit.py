@@ -17,7 +17,7 @@ def printPosts(desiredsubreddit):
     for item in myReddit.subreddit(desiredsubreddit).hot(limit=6):
             result[item.title] = item.url
     #display dictionary in a cleaner format and return it
-    refinedResult = "\n".join("{}: {}".format(k, v) for k, v in result.items())
+    refinedResult = "\n".join("{}: {}".format(elem, elem2) for elem, elem2 in result.items())
     return refinedResult
 
 #message printed to terminal to notify is bot is running
