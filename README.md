@@ -4,6 +4,7 @@ Discord bot coded in Python that returns hottest posts and their associated URL'
 # Motivation
 
 Main Takeaways:
+- Learn API's, namely Discord's API
 - Learning how bots work through asynchronous Python
 - Diving into the world of side-projects with Discord.py was a little ambitious...
 
