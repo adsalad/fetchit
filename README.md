@@ -1,7 +1,7 @@
 # fetchit
 Discord bot coded in Python that returns hottest posts and their associated URL's from reddit.com
 
-# Inspiration
+# Motivation
 
 Main Takeaways:
 - Learning how bots work through asynchronous Python
